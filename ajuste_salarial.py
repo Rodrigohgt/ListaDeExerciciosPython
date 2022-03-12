@@ -19,3 +19,6 @@ def iniciar():
             continue
     else:
         print("Encerrando calculo")
+
+if(__name__ == "__main__"):
+    iniciar()

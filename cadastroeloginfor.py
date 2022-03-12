@@ -18,3 +18,7 @@ def iniciar():
             print("erro no login: ")
             
     print("quantidade de tentativas acabou! acesso bloqueado")
+
+
+if(__name__ == "__main__"):
+    iniciar()

@@ -28,3 +28,5 @@ def iniciar():
         rodada = rodada + 1        
         
 
+if(__name__ == "__main__"):
+    iniciar()

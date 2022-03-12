@@ -46,3 +46,6 @@ def iniciar():
             pontos = pontos - pontos_perdidos
 
     print("Fim de jogo!")
+
+if(__name__ == "__main__"):
+    iniciar()

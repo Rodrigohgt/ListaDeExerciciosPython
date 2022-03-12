@@ -15,3 +15,7 @@ def iniciar():
     num10 = num * 10
 
     print(num1, num2, num3, num4, num5, num6, num7, num8, num9, num10)
+
+
+if(__name__ == "__main__"):
+    iniciar()

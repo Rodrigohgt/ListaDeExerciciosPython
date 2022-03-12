@@ -16,25 +16,36 @@ x = int(input("Adivinhacaowhile(1) adivinharfor(2) ajuste_salarial(3) cadastroel
 
 if(x == 1):
     print("iniciando AdivinhacaoWhile")
+    adivinhacaowhile.iniciar()
 elif(x == 2):
     print("iniciando adivinharfor")
+    adivinharfor.iniciar()
 elif(x == 3):
     print("iniciando ajuste_salarial")
+    ajuste_salarial.iniciar()
 elif(x == 4):
     print("iniciando cadastroelogin")
+    cadastroeloginfor.iniciar()
 elif(x == 5):
     print("iniciando calculadora")
+    calculadora.iniciar()
 elif(x == 6):
     print("iniciando calculoimc")
+    calculoimc.iniciar()
 elif(x == 7):
     print("iniciando horas_trabalhadas")
+    horas_trabalhadas.iniciar()
 elif(x == 8):
     print("iniciando jogo_da_forca")
+    jogo_da_forca.iniciar()
 elif(x == 9):
     print("iniciando kmcarro")
+    kmcarro.iniciar()
 elif(x == 10):
     print("iniciando notasaluno")
+    notasaluno.iniciar()
 elif(x == 11):
     print("qualomaior")
+    qualomaior.iniciar()
 else:
     print("exercicio invalido")

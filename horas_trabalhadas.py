@@ -8,3 +8,7 @@ def iniciar():
     salario = dias_mes * (salario_hora * horas_trabalhadas)
 
     print("$",salario)
+
+
+if(__name__ == "__main__"):
+    iniciar()

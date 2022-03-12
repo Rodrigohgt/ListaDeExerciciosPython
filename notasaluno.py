@@ -14,3 +14,7 @@ def iniciar():
 
     else:
         print("O aluno reprovou na materia")
+
+
+if(__name__ == "__main__"):
+    iniciar()

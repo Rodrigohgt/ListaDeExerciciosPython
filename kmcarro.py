@@ -12,3 +12,7 @@ def iniciar():
         print("Você consegue, Litros comprados: ", litroscomprados, " Km rodados vai ser de: ", km_comprados, "KM")
     else:
         print("Você não consegue viajar para toquio, Litros comprados: ", litroscomprados, " Km rodados vai ser de: ", km_comprados, "KM")
+
+
+if(__name__ == "__main__"):
+    iniciar()

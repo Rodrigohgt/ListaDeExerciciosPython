@@ -7,3 +7,7 @@ def iniciar():
 
     else:
         print("numero {} é maior".format(num2))
+
+
+if(__name__ == "__main__"):
+    iniciar()

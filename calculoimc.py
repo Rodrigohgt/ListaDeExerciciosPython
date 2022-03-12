@@ -14,3 +14,7 @@ def iniciar():
         print("Você está acima da média para seu peso")
     else:
         print("Você está na média de pesso")
+
+
+if(__name__ == "__main__"):
+    iniciar()
