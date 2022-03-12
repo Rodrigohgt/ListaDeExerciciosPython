@@ -16,6 +16,4 @@ if(sim_nao == 1):
         sim_nao = int(input("Gostaria de calcular outro salario? Digite 1 para continuar ou 2 para encerrar:"))
         continue
 else:
-
     print("Encerrando calculo")
-    
