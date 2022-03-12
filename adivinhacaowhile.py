@@ -1,28 +1,30 @@
-print("Jogo de adivinhacao")
 
-tentativa = 5 
-num_secreto = 42
-rodada = 0
+def iniciar():
+    print("Jogo de adivinhacao")
 
-while(rodada < tentativa):
-    print("Tentativas {} de {} ".format(rodada, tentativa))
-    chute = int(input("Digite o seu numero: "))
-    print("Você digitou: ", chute)
+    tentativa = 5 
+    num_secreto = 42
+    rodada = 0
 
-    acertou = chute == num_secreto
-    maior = chute > num_secreto
-    menor = chute < num_secreto
+    while(rodada < tentativa):
+        print("Tentativas {} de {} ".format(rodada, tentativa))
+        chute = int(input("Digite o seu numero: "))
+        print("Você digitou: ", chute)
 
-    
-    if(acertou):
-        print("Você acertou!!!")
+        acertou = chute == num_secreto
+        maior = chute > num_secreto
+        menor = chute < num_secreto
 
-    else:
-        if(maior):
-            print("Você chutou muito alto")
-        elif(menor):
-            print("Você chutou muito abaixo")
+        
+        if(acertou):
+            print("Você acertou!!!")
 
-    rodada = rodada + 1        
-    
+        else:
+            if(maior):
+                print("Você chutou muito alto")
+            elif(menor):
+                print("Você chutou muito abaixo")
+
+        rodada = rodada + 1        
+        
 
