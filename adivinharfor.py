@@ -8,11 +8,11 @@ rodada = 1
 dificuldade = int(input("Selecione o nivel de dificuldade, Facil: 1 / Médio: 2 / Dificil: 3"))
 
 if(dificuldade == 1):
-    tentativa = 30
+    tentativa = 15
 elif(dificuldade == 2):
-    tentativa = 20
-else:
     tentativa = 10
+else:
+    tentativa = 5
 
 for rodada in range(1, tentativa + 1):
     print("Tentativas {} de {} ".format(rodada, tentativa))
