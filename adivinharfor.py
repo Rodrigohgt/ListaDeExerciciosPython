@@ -4,7 +4,7 @@ def iniciar():
 
     print("Jogo de adivinhacao")
 
-    tentativa = 0
+    tentativa = 1
     num_secreto = random.randrange(1,51)
     rodada = 1
     pontos = 500
@@ -15,10 +15,12 @@ def iniciar():
         tentativa = 15
     elif(dificuldade == 2):
         tentativa = 10
-    else:
+    elif(dificuldade == 3):
         tentativa = 5
+    else:
+        print("Dificuldade Invalida")
 
-    for rodada in range(1, tentativa + 1):
+    for rodada in range(1, tentativa):
         print("Tentativas {} de {} ".format(rodada, tentativa))
         chute = int(input("Digite o seu numero: "))
         print("Você digitou: ", chute)
@@ -31,7 +33,6 @@ def iniciar():
         acertou = chute == num_secreto
         maior = chute > num_secreto
         menor = chute < num_secreto
-
 
         if(acertou):
             print("PARABÉNS!! Você acertou na tentativa: {} e fez o total de: {} pontos".format(rodada,pontos))
