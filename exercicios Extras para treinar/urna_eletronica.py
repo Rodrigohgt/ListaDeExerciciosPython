@@ -7,7 +7,12 @@ def iniciar():
     while(votenovamente):
         voto = int(input("Digite o numero do candidato que você queira votar"))
 
-        if(voto == 13):
+        lula = voto == 13
+        bolsonaro = voto == 17
+        daciolo = voto == 31
+        branco = voto == 0
+
+        if(lula):
             print("Você votou no Lula")
             confirmar = int(input("Digite 1 para confirmar ou 2 Para tentar novamente"))
             if(confirmar == 1):
@@ -18,7 +23,7 @@ def iniciar():
                     print("voto cancelado")
                     continue
 
-        elif(voto == 17):
+        elif(bolsonaro):
             print("Você votou no Bolsonaro")
             confirmar = int(input("Digite 1 para confirmar ou 2 Para tentar novamente"))
             if(confirmar == 1):
@@ -29,7 +34,7 @@ def iniciar():
                     print("voto cancelado")
                     continue
 
-        elif(voto == 31):
+        elif(daciolo):
             print("Você votou no Daciolo")
             confirmar = int(input("Digite 1 para confirmar ou 2 Para tentar novamente"))
             if(confirmar == 1):
@@ -40,7 +45,7 @@ def iniciar():
                     print("voto cancelado")
                     continue
 
-        elif(voto == 0):
+        elif(branco):
             print("Você votou Branco")
             confirmar = int(input("Digite 1 para confirmar ou 2 Para tentar novamente"))
             if(confirmar == 1):
