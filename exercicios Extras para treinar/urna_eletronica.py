@@ -2,7 +2,7 @@ print("Sistema de urna eletronica")
 
 def iniciar():
     
-    votenovamente = 1
+    votenovamente = "votenovamente"
 
     while(votenovamente):
         voto = int(input("Digite o numero do candidato que você queira votar"))
