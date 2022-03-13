@@ -4,7 +4,7 @@ def iniciar():
     
     votenovamente = 1
 
-    while(votenovamente == 1):
+    while(votenovamente):
         voto = int(input("Digite o numero do candidato que você queira votar"))
 
         if(voto == 13):
