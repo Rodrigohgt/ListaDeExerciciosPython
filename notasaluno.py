@@ -1,20 +1,18 @@
 def iniciar():
-    print("Calculo de nota de alunos")
+    nota1 = float(input("primeira nota "))
+    nota2 = float(input("Segunda nota "))
 
-    nota1 = float(input("Qual a nota 1 do aluno?"))
-    nota2 = float(input("Qual a nota 2 do aluno?"))
+    media = nota1 + nota2
+    media = media / 2
 
-    media = (nota1 + nota2) / 2
-    media = media >= 6
+    print("a média de nota foi: {}".format(media))
 
-    print("A media do aluno é: {} ".format(media))
-
-    if(media):
-        print("aluno passou de materia")
-
+    if(media == 10):
+        print("Aprovado com distição")
+    elif(media >= 7):
+        print("Aprovado")
     else:
-        print("O aluno reprovou na materia")
-
-
+        print("Reprovado")
+        
 if(__name__ == "__main__"):
     iniciar()
